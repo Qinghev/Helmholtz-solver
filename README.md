@@ -5,4 +5,4 @@ The sovler is based on fishpack90, you can find it through https://www2.cisl.uca
 
 Because it is single precision, so I changed all the original variables to real(kind=8) 'double precision', and 'mytest_hwscrt.f90' is the file test the equation
 $$u_{xx}+u_{yy}+\lambda u = g,$$
-the exact solution is $u(x,y) = exp(x)sin(\pi y)$.
+the exact solution is $u(x,y) = \exp(x)\sin(\pi y)$.
